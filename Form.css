@@ -1,0 +1,72 @@
+/* Form container */
+#form-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  font-family: Arial, sans-serif;
+}
+
+/* Form title */
+#form-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Labels */
+#label-username,
+#label-email,
+#label-password,
+#label-password2,
+#label-gender {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Inputs and select */
+#input-username,
+#input-email,
+#input-password,
+#input-password2,
+#select-gender {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Add some spacing between inputs */
+#input-username:not(:last-child),
+#input-email:not(:last-child),
+#input-password:not(:last-child),
+#input-password2:not(:last-child),
+#select-gender:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/* Submit button */
+#submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+  background-color: #45a049;
+}
